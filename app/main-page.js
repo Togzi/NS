@@ -1,3 +1,0 @@
-exports.submit = () => {
-  alert('Added');
-};
