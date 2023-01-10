@@ -1,0 +1,16 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Button.-primary {
+  font-size: 18;
+}
+
+Button.-add {
+  background-color: lightgreen;
+  height: 5%;
+  width: 10%;
+}

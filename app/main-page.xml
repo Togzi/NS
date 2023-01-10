@@ -1,0 +1,23 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="VideoKot" icon="" />
+    
+    <FlexboxLayout class="page">
+        <StackLayout class="form">
+            <Label class="header" text="VideoKOT" />
+
+            <ImageView />
+
+            <StackLayout class="input-field">
+                <TextField class="input" hint="Имя пользователя" text="{{ username }}" />
+            </StackLayout>
+
+
+            <StackLayout class="input-field">
+                <TextField class="input" secure="True" hint="Пароль" text="{{ password }}" />
+            </StackLayout>
+
+            <Button text="Авторизоваться" tap="submit" class="btn btn-success" backgroundColor="rgb(94, 228, 94)" />
+        </StackLayout>
+    </FlexboxLayout>
+
+</Page>
